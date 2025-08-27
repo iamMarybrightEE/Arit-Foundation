@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Arit Foundation</title>
+    <meta name="description" content="Read the latest stories, updates, and insights from Arit Foundation's work in transforming communities in Oro and Akwa Ibom state.">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="icon" href="./favicon.ico" type="image/png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
+            <div class="cookie-buttons">
+                <button id="accept-cookies" class="btn btn-primary">Accept</button>
+                <button id="decline-cookies" class="btn btn-secondary">Decline</button>
+                <a href="privacy.html" class="cookie-link">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="./index.html"><img src="./images/AF LOGO PNG.png" alt="Arit Foundation Logo" class="logo-img"></a>
+                    <!-- <span class="logo-text">Arit Foundation</span> -->
+                </div>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="focus.html" class="nav-link">Our Focus</a></li>
+                    <li class="nav-item"><a href="work.html" class="nav-link">Our Work</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link active">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero parallax-container">
+        <div class="parallax-bg" data-speed="0.5">
+            <img src="./images/img 10.png" alt="Blog hero">
+        </div>
+        <div class="hero-content">
+            <div class="hero-text animate-fade-up">
+                <h1 class="hero-title">Our <span class="highlight">Blog</span></h1>
+                <p class="hero-subtitle">Stories of transformation, insights from the field, and updates on our community development work</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Categories -->
+    <section class="blog-categories">
+        <div class="container">
+            <div class="categories-nav">
+                <button class="category-btn active" data-category="all">All Posts</button>
+                <button class="category-btn" data-category="impact">Impact Stories</button>
+                <button class="category-btn" data-category="programs">Programs</button>
+                <button class="category-btn" data-category="community">Community</button>
+                <button class="category-btn" data-category="insights">Insights</button>
+                <button class="category-btn" data-category="news">News</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Post -->
+    <section class="featured-post">
+        <div class="">
+            <div class="featured-content">
+                <div class="featured-image animate-slide-left">
+                    <img src="./images/img 7.png" alt="Featured post">
+                    <div class="featured-badge">Featured</div>
+                </div>
+                <div class="featured-text animate-slide-right">
+                    <div class="post-meta">
+                        <span class="post-category">Impact Stories</span>
+                        <span class="post-date">August 15, 2025</span>
+                    </div>
+                    <h2>Transforming Education in Rural Oro: A Year of Digital Learning</h2>
+                    <p>One year after launching our Digital Learning Initiative, we're seeing remarkable results. Students in 10 primary schools now have access to computers and digital literacy programs, opening new worlds of opportunity.</p>
+                    <div class="post-stats">
+                        <div class="stat-item">
+                            <i class="fas fa-users"></i>
+                            <span>1,000+ Students Impacted</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-school"></i>
+                            <span>10 Schools Equipped</span>
+                        </div>
+                        <div class="stat-item">
+                            <i class="fas fa-laptop"></i>
+                            <span>150 Computers Installed</span>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary">Read Full Story</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Grid -->
+    <section class="blog-posts">
+        <div class="">
+            <div class="posts-grid" id="posts-grid">
+                <!-- Impact Stories -->
+                <article class="blog-card animate-on-scroll" data-category="impact">
+                    <div class="blog-image">
+                        <img src="./images/img 13.jpg" alt="Success story">
+                        <div class="blog-category">Impact Stories</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">August 10, 2025</span>
+                            <span class="blog-author">By Admin</span>
+                        </div>
+                        <h3>From Seamstress to Business Owner: Mary's Journey</h3>
+                        <p>Meet Mary Udoh, who transformed her life through our Women's Empowerment Skills Center. Today, she runs a successful tailoring business and employs five other women.</p>
+                        <div class="blog-tags">
+                            <span class="tag">Women Empowerment</span>
+                            <span class="tag">Skills Training</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card animate-on-scroll" data-category="programs">
+                    <div class="blog-image">
+                        <img src="./images/img 2.png" alt="Youth program">
+                        <div class="blog-category">Programs</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">August 8, 2025</span>
+                            <span class="blog-author">By Admin</span>
+                        </div>
+                        <h3>Launching the Youth Innovation Hub</h3>
+                        <p>We're excited to announce the upcoming launch of our Youth Innovation Hub, a space where young entrepreneurs can turn their ideas into reality with mentorship and funding support.</p>
+                        <div class="blog-tags">
+                            <span class="tag">Youth</span>
+                            <span class="tag">Innovation</span>
+                            <span class="tag">Entrepreneurship</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card animate-on-scroll" data-category="community">
+                    <div class="blog-image">
+                        <img src="./images/img 3.png" alt="Community project">
+                        <div class="blog-category">Community</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">August 5, 2025</span>
+                            <span class="blog-author">By Admin</span>
+                        </div>
+                        <h3>Clean Water Changes Everything: Ikot Ekpene's Story</h3>
+                        <p>The installation of solar-powered water systems in Ikot Ekpene has transformed daily life for over 400 residents, reducing water-related diseases by 70%.</p>
+                        <div class="blog-tags">
+                            <span class="tag">Water Access</span>
+                            <span class="tag">Health</span>
+                            <span class="tag">Community Development</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card animate-on-scroll" data-category="insights">
+                    <div class="blog-image">
+                        <img src="./images/img 4.png" alt="Data insights">
+                        <div class="blog-category">Insights</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">September 3, 2025</span>
+                            <span class="blog-author">By Research Team</span>
+                        </div>
+                        <h3>Data-Driven Development: Our Approach to Sustainable Change</h3>
+                        <p>Learn how we use data and community feedback to design programs that create lasting impact, and why evidence-based approaches are crucial for development work.</p>
+                        <div class="blog-tags">
+                            <span class="tag">Research</span>
+                            <span class="tag">Data</span>
+                            <span class="tag">Methodology</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card animate-on-scroll" data-category="news">
+                    <div class="blog-image">
+                        <img src="./images/img 5.jpg" alt="Partnership news">
+                        <div class="blog-category">News</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">September 30, 2025</span>
+                            <span class="blog-author">By Communications Team</span>
+                        </div>
+                        <h3>New Partnership with Akwa Ibom State Government</h3>
+                        <p>We're proud to announce our new partnership with the Akwa Ibom State Government to expand our education programs to reach 5,000 more students across the state.</p>
+                        <div class="blog-tags">
+                            <span class="tag">Partnership</span>
+                            <span class="tag">Government</span>
+                            <span class="tag">Education</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card animate-on-scroll" data-category="impact">
+                    <div class="blog-image">
+                        <img src="./images/img 6.jpg" alt="Community impact">
+                        <div class="blog-category">Impact Stories</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">November 28, 2025</span>
+                            <span class="blog-author">By Field Team</span>
+                        </div>
+                        <h3>Building Leaders: The Community Leadership Program</h3>
+                        <p>Discover how our Community Leadership Program has empowered local leaders to drive change in their communities, resulting in 15 new community-led development projects.</p>
+                        <div class="blog-tags">
+                            <span class="tag">Leadership</span>
+                            <span class="tag">Community</span>
+                            <span class="tag">Empowerment</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card animate-on-scroll" data-category="programs">
+                    <div class="blog-image">
+                        <img src="./images/img 7.png" alt="Education program">
+                        <div class="blog-category">Programs</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">November 25, 2025</span>
+                            <span class="blog-author">By Admin</span>
+                        </div>
+                        <h3>Scholarship Program: Opening Doors to Higher Education</h3>
+                        <p>Our scholarship program has supported 200+ students over the past five years. Meet some of our graduates who are now giving back to their communities.</p>
+                        <div class="blog-tags">
+                            <span class="tag">Scholarships</span>
+                            <span class="tag">Education</span>
+                            <span class="tag">Students</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="blog-card animate-on-scroll" data-category="insights">
+                    <div class="blog-image">
+                        <img src="./images/img 8.png" alt="Development insights">
+                        <div class="blog-category">Insights</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">November 22, 2025</span>
+                            <span class="blog-author">By Admin</span>
+                        </div>
+                        <h3>The Role of Local Communities in Sustainable Development</h3>
+                        <p>Exploring why community-centered approaches are essential for creating lasting change and how we ensure local ownership of development initiatives.</p>
+                        <div class="blog-tags">
+                            <span class="tag">Sustainability</span>
+                            <span class="tag">Community</span>
+                            <span class="tag">Development</span>
+                        </div>
+                        <a href="#" class="blog-link">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Load More Button -->
+            <div class="load-more-section">
+                <button class="btn btn-outline btn-large" id="load-more-btn">
+                    Load More Posts
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="newsletter-section parallax-container">
+        <div class="parallax-bg" data-speed="0.4">
+            <img src="./images/img 9.png" alt="Newsletter background">
+        </div>
+        <div class="">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Stay Updated</h2>
+                    <p>Subscribe to our blog newsletter and never miss a story of transformation, 
+                    program update, or insight from our community development work.</p>
+                </div>
+                <form class="newsletter-form" id="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="">
+            <h2 class="section-title text-center">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How often do you publish new blog posts?</h3>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We publish new content 2-3 times per week, including impact stories, program updates, and insights from our field work. Subscribe to our newsletter to stay updated.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can community members contribute stories to your blog?</h3>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes! We welcome stories from community members, program participants, and partners. Contact us through our contact page to discuss your story idea.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can I share your blog posts?</h3>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Each blog post includes social sharing buttons. You can also copy the URL and share it directly. We encourage sharing our stories to help spread awareness about our work.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Are your blog posts available in local languages?</h3>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We're working on translating key posts into local languages. Currently, most content is in English, but we plan to expand language options based on community feedback.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="">
+                <div class="footer-grid">
+                    <div class="footer-section">
+                        <div class="footer-logo">
+                            <img src="./images/AF LOGO PNG.png" alt="Arit Foundation Logo">
+                            <!-- <span>Arit Foundation</span> -->
+                        </div>
+                        <p class="footer-description">
+                            Transforming lives and communities in Oro and Akwa Ibom state through sustainable, 
+                            data-backed solutions and equal access to opportunities.
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="focus.html">Our Focus</a></li>
+                            <li><a href="work.html">Our Work</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3 class="footer-title">Focus Areas</h3>
+                        <ul class="footer-links">
+                            <li><a href="focus.html#education">Education</a></li>
+                            <li><a href="focus.html#skills">Skill Development</a></li>
+                            <li><a href="focus.html#finance">Financial Investments</a></li>
+                            <li><a href="focus.html#community">Community Development</a></li>
+                            <li><a href="focus.html#entrepreneurship">Entrepreneurship</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3 class="footer-title">Contact Info</h3>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Oro, Akwa Ibom State, Nigeria</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+234XXXXXXXXXX">+234 XXX XXX XXXX</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:contact@uwemimafoundation.org">info@aritfoundation.org</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Arit Foundation. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy.html">Privacy Policy</a>
+                        <a href="privacy.html#cookies">Cookie Policy</a>
+                        <a href="#" onclick="showCookieBanner()">Cookie Settings</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/cookies.js"></script>
+    <script src="js/blog.js"></script>
+</body>
+</html>

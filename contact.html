@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Arit Foundation</title>
+    <meta name="description" content="Get in touch with Arit Foundation. Contact us for partnerships, volunteer opportunities, or to learn more about our community development programs.">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/animations.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="icon" href="./favicon.ico" type="image/png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <p>We use cookies to enhance your experience. By continuing to visit this site you agree to our use of cookies.</p>
+            <div class="cookie-buttons">
+                <button id="accept-cookies" class="btn btn-primary">Accept</button>
+                <button id="decline-cookies" class="btn btn-secondary">Decline</button>
+                <a href="privacy.html" class="cookie-link">Privacy Policy</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="./index.html"><img src="./images/AF LOGO PNG.png" alt="Arit Foundation Logo" class="logo-img"></a>
+                    <!-- <span class="logo-text">Arit Foundation</span> -->
+                </div>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="focus.html" class="nav-link">Our Focus</a></li>
+                    <li class="nav-item"><a href="work.html" class="nav-link">Our Work</a></li>
+                    <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link active">Contact</a></li>
+                </ul>
+
+                <div class="nav-controls">
+                    <button class="theme-toggle" id="theme-toggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <div class="hamburger" id="hamburger">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero parallax-container">
+        <div class="parallax-bg" data-speed="0.5">
+            <img src="./images/img 13.jpg" alt="Contact us">
+        </div>
+        <div class="hero-content">
+            <div class="hero-text animate-fade-up">
+                <h1 class="hero-title">Get In <span class="highlight">Touch</span></h1>
+                <p class="hero-subtitle">Ready to make a difference? Contact us to learn about partnership opportunities, volunteer programs, or how you can support our mission.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="contact-info-section">
+        <div class="">
+            <div class="contact-info-grid">
+                <div class="contact-card animate-on-scroll">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Visit Us</h3>
+                    <p>Oro Community<br>Akwa Ibom State<br>Nigeria</p>
+                </div>
+                
+                <div class="contact-card animate-on-scroll">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Call Us</h3>
+                    <p>+234 XXX XXX XXXX<br>+234 XXX XXX XXXX</p>
+                </div>
+                
+                <div class="contact-card animate-on-scroll">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email Us</h3>
+                    <p>info@aritfoundation.org<br>partnerships@aritfoundation.org</p>
+                </div>
+                
+                <div class="contact-card animate-on-scroll">
+                    <div class="contact-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>Office Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 9:00 AM - 2:00 PM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form-section">
+        <div class="">
+            <div class="contact-form-grid">
+                <div class="form-content animate-slide-left">
+                    <h2 class="section-title">Send Us a Message</h2>
+                    <p class="section-description">
+                        Whether you're interested in partnering with us, volunteering, or learning more about our programs, 
+                        we'd love to hear from you. Fill out the form and we'll get back to you within 24 hours.
+                    </p>
+                    
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="firstName">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="lastName">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject *</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="partnership">Partnership Opportunity</option>
+                                <option value="volunteer">Volunteer Interest</option>
+                                <option value="donation">Donation Inquiry</option>
+                                <option value="program">Program Information</option>
+                                <option value="media">Media Inquiry</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="organization">Organization (if applicable)</label>
+                            <input type="text" id="organization" name="organization">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required placeholder="Tell us more about your inquiry..."></textarea>
+                        </div>
+                        
+                        <div class="form-group checkbox-group custom-checkbox">
+                            <label class="checkbox-label" style="display: flex;">
+                                <input type="checkbox" id="newsletter" name="newsletter" >
+                                <span class="checkmark"></span>
+                                Subscribe to our newsletter for updates on our programs and impact stories
+                            </label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-large">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-loading" style="display: none;">
+                                <i class="fas fa-spinner fa-spin"></i> Sending...
+                            </span>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-image animate-slide-right">
+                    <img src="./images/white flower.jpeg" alt="Contact us image">
+                    
+                    <div class="contact-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-reply"></i>
+                            <span>24-hour response time</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Your information is secure</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-handshake"></i>
+                            <span>Partnership opportunities available</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Ways to Get Involved -->
+    <section class="involvement-section parallax-container">
+        <div class="parallax-bg" data-speed="0.3">
+            <img src="./images/img 12.jpg" alt="Get involved">
+        </div>
+        <div class="">
+            <h2 class="section-title text-center">Ways to Get Involved</h2>
+            <div class="involvement-grid">
+                <div class="involvement-card animate-on-scroll">
+                    <div class="involvement-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>Volunteer</h3>
+                    <p>Join our team of dedicated volunteers and contribute your skills to make a direct impact in communities.</p>
+                    <ul>
+                        <li>Teaching and mentoring</li>
+                        <li>Project management</li>
+                        <li>Community outreach</li>
+                        <li>Administrative support</li>
+                    </ul>
+                    <a href="#" class="involvement-link">Learn More <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="involvement-card animate-on-scroll">
+                    <div class="involvement-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>Partner</h3>
+                    <p>Collaborate with us to amplify impact through strategic partnerships and resource sharing.</p>
+                    <ul>
+                        <li>Corporate partnerships</li>
+                        <li>NGO collaborations</li>
+                        <li>Government partnerships</li>
+                        <li>International cooperation</li>
+                    </ul>
+                    <a href="#" class="involvement-link">Partner With Us <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="involvement-card animate-on-scroll">
+                    <div class="involvement-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Donate</h3>
+                    <p>Support our programs financially and help us reach more communities with life-changing initiatives.</p>
+                    <ul>
+                        <li>One-time donations</li>
+                        <li>Monthly giving</li>
+                        <li>Project sponsorship</li>
+                        <li>In-kind donations</li>
+                    </ul>
+                    <a href="#" class="involvement-link">Donate Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                
+                <div class="involvement-card animate-on-scroll">
+                    <div class="involvement-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>Advocate</h3>
+                    <p>Help spread awareness about our mission and the challenges facing communities in Akwa Ibom state.</p>
+                    <ul>
+                        <li>Social media advocacy</li>
+                        <li>Community presentations</li>
+                        <li>Fundraising events</li>
+                        <li>Media engagement</li>
+                    </ul>
+                    <a href="#" class="involvement-link">Join Our Cause <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Map -->
+    <section class="map-section">
+        <div class="">
+            <h2 class="section-title text-center">Find Us</h2>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Oro Community, Akwa Ibom State</h3>
+                        <p>Our main office is located in the heart of Oro community, making us easily accessible to the communities we serve.</p>
+                        <div class="map-directions">
+                            <a href="#" class="btn btn-outline">Get Directions</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="">
+            <h2 class="section-title text-center">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How quickly do you respond to inquiries?</h3>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>We aim to respond to all inquiries within 24 hours during business days. For urgent matters, please call our office directly.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Can I visit your office without an appointment?</h3>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>While walk-ins are welcome during office hours, we recommend scheduling an appointment to ensure someone is available to meet with you and give you their full attention.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you accept international volunteers?</h3>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, we welcome volunteers from around the world. International volunteers should contact us at least 3 months in advance to discuss visa requirements and program arrangements.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How can media representatives contact you?</h3>
+                        <i class="fas fa-plus faq-icon"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Media inquiries should be directed to our communications team at media@aritfoundation.org or by selecting "Media Inquiry" in the contact form above.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter-section">
+        <div class="">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Stay Connected</h2>
+                    <p>Subscribe to our newsletter for updates on our programs, success stories, and opportunities to get involved.</p>
+                </div>
+                <form class="newsletter-form" id="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-primary">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="">
+                <div class="footer-grid">
+                    <div class="footer-section">
+                        <div class="footer-logo">
+                            <img src="./images/AF LOGO PNG.png" alt="Arit Foundation Logo">
+                            <!-- <span>Arit Foundation</span> -->
+                        </div>
+                        <p class="footer-description">
+                            Transforming lives and communities in Oro and Akwa Ibom state through sustainable, 
+                            data-backed solutions and equal access to opportunities.
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3 class="footer-title">Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="focus.html">Our Focus</a></li>
+                            <li><a href="work.html">Our Work</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3 class="footer-title">Focus Areas</h3>
+                        <ul class="footer-links">
+                            <li><a href="focus.html#education">Education</a></li>
+                            <li><a href="focus.html#skills">Skill Development</a></li>
+                            <li><a href="focus.html#finance">Financial Investments</a></li>
+                            <li><a href="focus.html#community">Community Development</a></li>
+                            <li><a href="focus.html#entrepreneurship">Entrepreneurship</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-section">
+                        <h3 class="footer-title">Contact Info</h3>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Oro, Akwa Ibom State, Nigeria</span>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+234XXXXXXXXXX">+234 XXX XXX XXXX</a>
+                            </div>
+                            <div class="contact-item">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:contact@uwemimafoundation.org">info@aritfoundation.org</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Arit Foundation. All rights reserved.</p>
+                    <div class="footer-bottom-links">
+                        <a href="privacy.html">Privacy Policy</a>
+                        <a href="privacy.html#cookies">Cookie Policy</a>
+                        <a href="#" onclick="showCookieBanner()">Cookie Settings</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/cookies.js"></script>
+    <script src="js/contact.js"></script>
+</body>
+</html>
