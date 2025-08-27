@@ -1580,6 +1580,9 @@ img {
     min-width: 250px;
   }
   .privacy-hero, .privacy-content{
+    padding: 3rem;
+  }
+  .faq-section .section-title{
     padding: 2rem;
   }
 }
