@@ -1474,8 +1474,11 @@ img {
   .partnerships .partnership-description{
     color: var(--text-dark);
   }
-  .section-title .text-center{
-    padding: 1rem;
+  .faq-section .section-title .text-center{
+    padding: 2rem;
+  }
+  .privacy-hero, .privacy-content{
+    padding: 2rem;
   }
 /* Responsive Design */
 @media (max-width: 799px) {
