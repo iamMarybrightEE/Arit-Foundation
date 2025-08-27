@@ -1468,6 +1468,15 @@ img {
   img{
     filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.532));
   }
+ .focus-area-section  .section-description{
+    color: var(--text-dark);
+  }
+  .partnerships .partnership-description{
+    color: var(--text-dark);
+  }
+  .section-title .text-center{
+    padding: 1rem;
+  }
 /* Responsive Design */
 @media (max-width: 799px) {
   .hamburger {
@@ -1539,6 +1548,11 @@ img {
   h1 { font-size: 2.5rem; }
   h2 { font-size: 2rem; }
   h3 { font-size: 1.5rem; }
+  .focus-area-section .section-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+
+  }
 }
 
 @media (max-width: 480px) {
