@@ -1579,8 +1579,9 @@ img {
   .focus-card {
     min-width: 250px;
   }
-  .privacy-hero, .privacy-content{
-    padding: 3rem;
+ 
+  .privacy-hero-content, .privacy-sections{
+    padding: 2rem;
   }
   .faq-section .section-title{
     padding: 2rem;
