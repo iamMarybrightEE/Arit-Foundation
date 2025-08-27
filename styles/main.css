@@ -1579,4 +1579,7 @@ img {
   .focus-card {
     min-width: 250px;
   }
+  .privacy-hero, .privacy-content{
+    padding: 2rem;
+  }
 }
