@@ -1586,4 +1586,7 @@ img {
   .faq-section .section-title{
     padding: 2rem;
   }
+  .auto-info-list{
+    padding: 1rem;
+  }
 }
